@@ -21,7 +21,7 @@ class Stack : public LinkedList<T>
 				delete this->first;
 				this->first = cur;
 				this->current_size--;
-
+				this->current_size--;
 				return true;
 			}
 
